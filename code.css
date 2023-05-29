@@ -1,0 +1,78 @@
+/* .box:nth-child(1){
+    background-color: red;
+    background-image: url(./icons/cat.png);
+background-repeat:no-repeat;
+background-position: center;
+
+}
+.box:nth-child(2){
+    background-color: green;
+    background-image: url(/icons/bird.png);
+    background-repeat:repeat-x;
+    background-position: center;
+}
+.box:nth-child(3){
+    background-color:blue ;
+    background-image: url(/icons/dog.png);
+    background-repeat:repeat-y;
+background-position: 50px 0px ;
+}
+.box:nth-child(4){
+    background-color: yellow;
+    background-image: url(/icons/turtle.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 150px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+      
+    }
+.box{
+    height: 190px;
+    width: calc(50% - 20px);
+    margin: 10px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+} */
+
+/* .overlay{
+
+outline: 1px solid black;
+
+  max-width: 1200px;
+  height: 400px;
+
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+   to top,
+   rgba(246, 255, 0, 0.526),
+    rgba(4, 0, 255, 0.478)),
+  url(/icons/Ukreinian.png);
+  background-position: center;
+  
+
+} */
+.button {
+    display: inline-flex;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    align-items: center;
+    border-radius: 5px;
+    color: #fff;
+   }
+   .button::before{
+    content: '';
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    
+    background-color: red
+   }
